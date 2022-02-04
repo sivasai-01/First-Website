@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head><title>My website</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://www.holidify.com/images/cmsuploads/compressed/Kodaikanal_20180308230349.jpg");
+    height: 100vh;
+    background-size:cover;
+    background-position:center;
+}
+
+ul{
+    float:left;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ ul li{
+      display: inline-block;
+
+ }
+ ul li a{
+      text-decoration: none;
+      color:rgb(216, 219, 13);
+      padding:5px 20px;
+      border: 1px solid rgb(6, 1, 12);
+      transition: 0.6s ease;
+ }
+
+ ul li a:hover{
+     background-color: #fff;
+     color:#000;
+ }
+ .title{
+     position:absolute;
+     top: 15%;
+     left: 40%;
+     padding:10px 20px;
+      border: 5px solid rgb(16, 189, 59);
+     transform: translate(-30%,-70%);
+ }
+ .title h1{
+     color: rgb(47, 30, 197);
+     font-size: 45px;
+ }
+ .select{
+     position:absolute;
+     top: 25%;
+     left: 50%;
+     padding:5px 20px;
+      border: 2px solid rgb(231, 28, 180);
+     transform: translate(-50%,-50%);
+ }
+ .select h2{
+     color: rgb(159, 226, 35);
+     font-size: 23px;
+ }
+ .button{
+    position:absolute;
+     top: 48%;
+     left: 50%;
+     transform: translate(-50%,-50%); 
+ }
+ .btn{
+     font-size: 30px;
+     font-family: 'Times New Roman', Times, serif;
+     color:rgb(236, 232, 236);
+     text-decoration: none;
+     transition: 0.6s ease; 
+ }
+</style>
+<body>
+    <header>
+        <div class="main">
+            <ul>
+                <li><a href="index.html">Back</a></li>
+            </ul>
+        </div>
+        <div class="title">
+            <h1><u><b>Top Tourist Places in South India</b></u></h1>
+        </div>
+        <div class="select">
+            <h2>Please click on the state to see the Tourist places:</h2>
+        </div>
+        <div class="button"><u>
+            <a href="https://www.holidify.com/state/andhra-pradesh/top-destinations-places-to-visit.html" class="btn">->Andhra Pradesh</a><br><br>
+            <a href="https://www.holidify.com/state/telangana/top-destinations-places-to-visit.html" class="btn">->Telangana</a><br><br>
+            <a href="https://www.holidify.com/state/tamil-nadu/top-destinations-places-to-visit.html" class="btn">->Tamil Nadu</a><br><br>
+            <a href="https://www.holidify.com/state/karnataka/top-destinations-places-to-visit.html" class="btn">->Karnataka</a><br><br>
+            <a href="https://www.ekeralatourism.net/blog/places-to-visit-in-kerala/" class="btn">->kerala</a></u>
+        </div>
+    </header>
+</body>
+</html>
